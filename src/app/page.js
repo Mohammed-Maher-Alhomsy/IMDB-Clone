@@ -8,5 +8,5 @@ export const metadata = {
 };
 
 export default function Home() {
-  return <main className={"bg-red-500 font-bold"}>Hello</main>;
+  return <main className="text-red-500">Hello</main>;
 }
