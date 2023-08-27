@@ -30,13 +30,3 @@ const DarkModeSwitch = () => {
 };
 
 export default DarkModeSwitch;
-
-// useEffect(() => {
-//   const theme = window.matchMedia("(prefers-color-scheme: dark)");
-
-//   if (theme.matches) {
-//     console.log("The current theme is dark");
-//   } else {
-//     console.log("The current theme is light");
-//   }
-// }, []);
