@@ -18,7 +18,7 @@ const Card = ({ result }) => {
           className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
           placeholder="blur"
           blurDataURL="/spinner.svg"
-          style={{ maxWidth: "100%", height: "auto" }}
+          style={{ maxWidth: "100%", height: "200px", objectFit: "cover" }}
         />
 
         <div className="p-2">
